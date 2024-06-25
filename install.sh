@@ -46,7 +46,10 @@ if  [ "$INSTALLATION" != "" ]; then
 		;;
 
 		-? | -h | --help )
-
+			echo "Usage: install.sh [OPTIONS]";
+			echo "Example: ";
+    		echo "bash install.sh package -skiphc true";
+			exit;
 		;;
 
 	esac
