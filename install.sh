@@ -26,7 +26,7 @@ if  [ "$INSTALLATION" != "" ]; then
 
 		2 )
 			echo "#2 - ONLYOFFICE Workspace Enterprise Edition"
-			wget -O workspace-enterprise-install.sh -N --tries=3 wget https://download.onlyoffice.com/install/workspace-enterprise-install.sh
+			wget -O workspace-enterprise-install.sh -N --tries=3 https://download.onlyoffice.com/install/workspace-enterprise-install.sh
 			SCRIPT_NAME="workspace-enterprise-install.sh"
 			shift
 		;;
