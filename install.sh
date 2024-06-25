@@ -13,6 +13,7 @@ echo "#4 - ONLYOFFICE DocSpace Enterprise Edition";
 echo "";
 
 read -p "Please enter the number: " -n 1 INSTALLATION ;
+echo "";
 
 if  [ "$INSTALLATION" != "" ]; then
 	case $INSTALLATION in	
