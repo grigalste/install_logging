@@ -10,8 +10,9 @@ echo "#1 - ONLYOFFICE Workspace Community Edition"
 echo "#2 - ONLYOFFICE Workspace Enterprise Edition"
 echo "#3 - ONLYOFFICE DocSpace Community Edition"
 echo "#4 - ONLYOFFICE DocSpace Enterprise Edition"
-echo "Please enter the number: ";
-read -n 1 INSTALLATION ;
+echo "";
+
+read -p "Please enter the number: " -n 1 INSTALLATION ;
 
 if  [ "$INSTALLATION" != "" ]; then
 	case $INSTALLATION in	
